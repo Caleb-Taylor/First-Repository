@@ -2,6 +2,7 @@
 # Caleb Taylor
 # 2.5.19
 
+'''
 name = input("What's your name: ")
 
 def greeting():
@@ -9,3 +10,17 @@ def greeting():
     print("Nice to meet you")
 
 greeting()
+'''
+
+# 4.13.4: Functions and Variables
+# Caleb Taylor
+# 2.11.18
+
+x = 406
+
+def print_something():
+    x = 3
+    print('\n', x)
+
+print('\n',x)
+print_something()
