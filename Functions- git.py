@@ -59,3 +59,13 @@ def print_two_number(x, y = 20):
 
 print_two_number(34, 45)
 print_two_number(78) 
+
+
+# 4.16.6: print Sum
+# Caleb Taylor
+# 2.19.19
+
+def print_sum(x, y):
+    print(x + y)
+
+print_sum(46,62)
