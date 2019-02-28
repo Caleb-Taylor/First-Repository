@@ -37,6 +37,7 @@ def print_number(x):
 print_number(13)
 print_number(23)
 
+
 # 4.14.4: Name and age
 # Caleb Taylor
 #2.18.19
@@ -46,3 +47,15 @@ def name_and_age(name, age):
 
 name_and_age('Caleb', 16)
 name_and_age('Shamiel', 16)
+
+
+# 4.14.5: Default Parameter Value
+# Caleb Taylor
+# 2.19.19
+
+def print_two_number(x, y = 20):
+    print('First number:', x)
+    print('Second Number:'+ str(y))
+
+print_two_number(34, 45)
+print_two_number(78)
