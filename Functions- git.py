@@ -69,3 +69,15 @@ def print_sum(x, y):
     print(x + y)
 
 print_sum(46,62)
+
+
+# 4.16.3 Enter a number using try and expect
+# Caleb Taylor
+# 2.20.29
+
+'
+try:
+    my_num = int(input('Enter an integer: '))
+
+except ValueError:
+    print('\n''That was not an integer, (:')
