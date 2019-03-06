@@ -101,6 +101,7 @@ print('Age:', age)
 
 
 
+
 # Caleb Taylor
 # 1.14.19
 
@@ -118,3 +119,13 @@ while guess != my_number:
 
 print ("")
 print ("Nice g you got it cuhh")
+
+# Program tracing
+# Caleb Taylor
+
+x = 20
+
+while x > 5:
+    print(x)
+    x = x - 2
+
